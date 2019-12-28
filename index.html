@@ -21,7 +21,7 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">GetHealth</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
@@ -33,9 +33,9 @@
           <a class="nav-item nav-link active" href="#">Home
             <span class="sr-only">(current)</span>
           </a>
-          <a class="nav-item nav-link js-scroll" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link js-scroll-trigger" href="#benefit">Benefit</a>
+          <a class="nav-item nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-item nav-link js-scroll-trigger" href="#contact">Contact</a>
           <a class="nav-item btn btn-primary tombol" href="login.html">Login</a>
         </div>
       </div>
@@ -59,21 +59,22 @@
   <div class="container">
 
     <!-- Info Panel -->
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" id="benefit">
       <div class="col-10 info-panel">
+        <h3>Benefit</h3>
         <div class="row">
           <div class="col-lg">
-            <img src="img/time.png" alt="Employee" class="float-left">
+            <img src="img/time.png" alt="" class="float-left">
             <h4>24 Hours</h4>
             <p>Can use every time.</p>
           </div>
           <div class="col-lg">
-            <img src="img/wallet.png" alt="Employee" class="float-left">
+            <img src="img/wallet.png" alt="" class="float-left">
             <h4>Save Cost</h4>
             <p>Save cost.</p>
           </div>
           <div class="col-lg">
-            <img src="img/security2.png" alt="Employee" class="float-left">
+            <img src="img/security2.png" alt="" class="float-left">
             <h4>Security</h4>
             <p>System security.</p>
           </div>
@@ -85,9 +86,9 @@
   </div>
 
   <!-- About -->
-  <div class="row about">
+  <div class="row about" id="about">
     <div class="col-lg-6">
-      <img src="img/283046-P66CRR-264-2.jpg" alt="283046-P66CRR-264" class="img-fluid">
+      <img src="img/37126.jpg" alt="37126" class="img-fluid">
     </div>
     <div class="col-lg-5">
       <h3>About</h3>
@@ -98,11 +99,11 @@
   <!-- Akhir About -->
 
   <!-- Contact -->
-  <div class="row contact">
-    <div class="col-lg-12">
+  <div class="row contact" id="contact">
+    <div class="col-lg-12 bg-light">
       <h3>Contact</h3>
       <p>E-mail : registration@gmail.com</p>
-      <p>No. Telp : 0858765</p>
+      <p>No. Telp : 085801307356</p>
     </div>
   </div>
   <!-- Akhir Contact -->
@@ -111,13 +112,14 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <a>Icons made by
-      <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </a>
-    <a href="http://www.freepik.com">Designed by Freepik</a>
-    <a href="http://www.freepik.com">Designed by Pressfoto / Freepik</a>
-
+    <div class="container">
+      <a>Icons made by
+        <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      </a>
+      <a href="http://www.freepik.com">Designed by Freepik</a>
+      <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+    </div>
 
   </footer>
 
