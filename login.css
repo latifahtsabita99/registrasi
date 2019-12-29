@@ -1,5 +1,9 @@
+.login{
+	background-color: rgb(149, 149, 223);
+}
+
 .container {
-	width: 30%;
+	width: 50%;
 	margin-top: 9%;
 	box-shadow: 0 3px 20px rgba(0,0,0,0.3);
 	padding: 40px;
@@ -8,4 +12,15 @@
 
 button{
 	width: 48%;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) { 
+	.container {
+		width: 30%;
+		margin-top: 9%;
+		box-shadow: 0 3px 20px rgba(0,0,0,0.3);
+		padding: 40px;
+	
+	}
 }

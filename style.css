@@ -35,7 +35,7 @@
 
 /* Info Panel */
 .info-panel {
-    background-color: rgb(179, 179, 243);
+    background-color: rgb(149, 149, 223);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     margin-top: -200;
@@ -68,7 +68,8 @@
     font-weight: 200;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     
 }
 
@@ -82,26 +83,27 @@
     font-size: 52px;
     font-weight: 200;
     text-transform: uppercase;
-    margin-top: 30px;
     margin-top: 60px;
 }
 
 .about p {
     font-size: 18px;
-    color: #acacac;
+    color: #524b4b;
     font-weight: 200;
     margin: 30px 0;
 }
 
-.about img {
+/*.about img {
     height: 500px;
-    margin-left: 100px;
-}
+    width: 700px;
+    margin-left: 50px;
+}*/
 
 /* Contact */
 .contact {
     margin-top: 100px;
     text-align: center;
+    background-color: rgb(228, 228, 252);
 }
 
 .contact h3 {
@@ -113,8 +115,14 @@
 .contact p {
     font-size: 18px;
     color: #524b4b;
+    text-align: left;
     font-weight: 200;
     margin: 30px 0;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
 }
 
 /* Desktop Version */
@@ -149,6 +157,21 @@
 
     .about {
         text-align: left;
+    }
+
+    .about img {
+    height: 500px;
+    margin-left: 50px;
+    }
+
+    .contact p {
+        font-size: 18px;
+        color: #524b4b;
+        text-align: left;
+        font-weight: 200;
+        margin: 30px 0;
+        margin-left: 400px;
+        
     }
 }
 
